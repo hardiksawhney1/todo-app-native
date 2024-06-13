@@ -11,8 +11,10 @@ import { Image } from "expo-image";
 import { LinearGradient } from "expo-linear-gradient";
 import { useFonts } from "expo-font";
 import Ionicons from "@expo/vector-icons/Ionicons";
-
-const Loginpage = ({ promptAsync }) => {
+interface props{
+  promptAsync:any
+}
+const Loginpage = ({ promptAsync}:props) => {
   const [fontsLoaded] = useFonts({
     Poppins: require("../../../assets/fonts/Poppins-SemiBold.ttf"),
   });
