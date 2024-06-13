@@ -64,7 +64,7 @@ const index = () => {
         console.log("else");
       }
     });
-    return () => unsub();
+    // return () => unsub();
   }, []);
   // return true ? <Loginpage promptAsync={promptAsync} /> : <Text>Sorry</Text>;
   // <View style={styles.container}>
